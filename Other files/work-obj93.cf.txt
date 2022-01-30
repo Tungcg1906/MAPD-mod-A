@@ -1,0 +1,23 @@
+v 3
+file . "fir_new.vhd" "20210314112258.000" "20210324105847.170":
+  entity fir_filter_8 at 1( 0) + 0 on 18;
+  architecture rtl of fir_filter_8 at 25( 721) + 0 on 19;
+file . "baudrate_generator.vhd" "20210315092434.000" "20210324105847.170":
+  entity baudrate_generator at 1( 0) + 0 on 24;
+  architecture rtl of baudrate_generator at 15( 213) + 0 on 25;
+file . "sampler_generator.vhd" "20210313171758.000" "20210324105847.170":
+  entity sampler_generator at 1( 0) + 0 on 22;
+  architecture rtl of sampler_generator at 14( 243) + 0 on 23;
+file . "top.vhd" "20210315083158.000" "20210324105847.170":
+  entity top at 1( 0) + 0 on 11;
+  architecture str of top at 16( 217) + 0 on 12;
+file . "top_tb.vhd" "20210314122256.000" "20210324105847.170":
+  entity top_tb at 1( 0) + 0 on 13;
+  architecture test of top_tb at 9( 127) + 0 on 14;
+  configuration top_tb_test_cfg at 98( 2480) + 0 on 15;
+file . "uart_receiver.vhd" "20210313171758.000" "20210324105847.170":
+  entity uart_receiver at 1( 0) + 0 on 16;
+  architecture str of uart_receiver at 17( 269) + 0 on 17;
+file . "uart_transmitter.vhd" "20210315083202.000" "20210324105847.170":
+  entity uart_transmitter at 1( 0) + 0 on 20;
+  architecture rtl of uart_transmitter at 18( 305) + 0 on 21;
